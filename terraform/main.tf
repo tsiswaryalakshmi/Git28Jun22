@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "TerraformDemo"
     storage_account_name = "terraformcodeops"
     container_name       = "tfstatefile"
-    key                  = "terraform.tfstate"
+    key                  = "dev.terraform.tfstate"
   }
 }
 module "RG" {
